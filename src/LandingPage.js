@@ -13,7 +13,7 @@ const LandingPage = () => {
       link: "https://github.com/RPD123-byte/marketing_agent"
     },
     {
-      title: "Neural SDE Portfolio Optimizer",
+      title: "Neural Stochastic Differential Equation Portfolio Optimizer",
       image: "sde.png",
       description: "Innovative stock portfolio optimization strategy using Neural Stochastic Differential Equations and fine-tuned sentiment analysis.",
       link: "https://github.com/RPD123-byte/Sentiment-Driven-Portfolio-Optimization-Using-Neural-Stochastic-Differential-Equations-A-Case-Study"

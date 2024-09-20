@@ -24,7 +24,7 @@ const Projects = () => {
       link: "/projects/lexal-ai"
     },
     {
-      title: "Neural SDE Portfolio Optimizer",
+      title: "Neural Stochastic Differential Equation Portfolio Optimizer",
       image: "sde.png",
       description: "Innovative stock portfolio optimization strategy using Neural Stochastic Differential Equations and fine-tuned sentiment analysis, demonstrated during the 2008 financial crisis.",
       link: "https://github.com/RPD123-byte/Sentiment-Driven-Portfolio-Optimization-Using-Neural-Stochastic-Differential-Equations-A-Case-Study"
