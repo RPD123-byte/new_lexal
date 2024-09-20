@@ -18,7 +18,7 @@ const Projects = () => {
       link: "https://github.com/RPD123-byte/Research_with_Human_Level_Intelligence"
     },
     {
-      title: "Lexal AI Website",
+      title: "Full Stack Website",
       image: "lexal.jpg",
       description: "Developed a comprehensive website for Lexal AI, featuring a full frontend and backend architecture. Implemented secure authentication using JWT and Google Auth, integrated a PostgreSQL database, and Stripe for payments. The site includes a multifunctional dashboard and is supported by a robust CI/CD pipeline.",
       link: "/projects/lexal-ai"
