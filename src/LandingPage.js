@@ -128,9 +128,15 @@ const ProjectCard = ({ title, image, description, link }) => (
     <div className="p-6">
       <h3 className="font-bold text-xl mb-2 text-indigo-600">{title}</h3>
       <p className="text-gray-700 text-sm mb-4">{description}</p>
-      <a href={link} className="text-indigo-600 hover:text-indigo-800 font-semibold transition duration-300">
-        View Project
-      </a>
+      {link.startsWith('/') ? (
+        <Link to={link} className="text-indigo-600 hover:text-indigo-800 font-semibold transition duration-300">
+          View Details
+        </Link>
+      ) : (
+        <a href={link} className="text-indigo-600 hover:text-indigo-800 font-semibold transition duration-300">
+          View Project
+        </a>
+      )}
     </div>
   </div>
 );
