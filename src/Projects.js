@@ -85,7 +85,7 @@ const Projects = () => {
               <div className="p-6">
                 <h2 className="font-bold text-xl mb-2 text-indigo-600">{project.title}</h2>
                 <p className="text-gray-700 text-sm mb-4">{project.description}</p>
-                {project.title === "Palm Berries Auto-Purchasing Bot" | "Full Stack Website" ? (
+                {project.link.startsWith('/') ? (
                   <Link to={project.link} className="text-indigo-600 hover:text-indigo-800 font-semibold transition duration-300">
                     View Details
                   </Link>

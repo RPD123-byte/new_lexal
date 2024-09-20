@@ -68,6 +68,11 @@ const LandingPage = () => {
               ))}
             </div>
             <div className="text-center mt-12">
+              <Link to="/projects" className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition duration-300">
+                View All Projects <ArrowRight className="ml-2" />
+              </Link>
+            </div>
+            <div className="text-center mt-12">
             <Link to="/projects" className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition duration-300">
               View All Projects <ArrowRight className="ml-2" />
             </Link>
