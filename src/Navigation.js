@@ -11,7 +11,7 @@ const Navigation = () => {
         <div className="space-x-6">
           <Link to="/projects" className="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</Link>
           <a 
-            href="mailto:Business@lexalai.com" 
+            href="mailto:business@lexalai.com" 
             className="text-gray-600 hover:text-indigo-600 transition duration-300"
           >
             Contact Us

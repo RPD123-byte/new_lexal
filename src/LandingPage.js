@@ -96,7 +96,7 @@ const LandingPage = () => {
             <h2 className="text-4xl font-bold mb-8">Ready to Transform Your Business?</h2>
             <p className="text-xl mb-12 max-w-2xl mx-auto">Let's discuss how our tech solutions can drive your success. Reach out to us for a free consultation.</p>
             <a 
-              href="mailto:Business@lexalai.com" 
+              href="mailto:business@lexalai.com" 
               className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 transition duration-300"
             >
               Contact Us <ArrowRight className="ml-2" />
