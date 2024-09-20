@@ -7,22 +7,22 @@ import Navigation from './Navigation';
 const LandingPage = () => {
   const featuredProjects = [
     {
-      title: "Neural SDE Portfolio Optimizer",
-      image: "sde.png",
-      description: "Innovative stock portfolio optimization strategy using Neural Stochastic Differential Equations and fine-tuned sentiment analysis.",
-      link: "https://github.com/RPD123-byte/Sentiment-Driven-Portfolio-Optimization-Using-Neural-Stochastic-Differential-Equations-A-Case-Study"
-    },
-    {
       title: "Marketing Strategy Generator",
       image: "marketing_agent.png",
       description: "AI-powered tool that generates ranked, tailored marketing strategies for businesses using advanced AI reflection and industry research.",
       link: "https://github.com/RPD123-byte/marketing_agent"
     },
     {
-      title: "Lexal AI Website",
+      title: "Neural SDE Portfolio Optimizer",
+      image: "sde.png",
+      description: "Innovative stock portfolio optimization strategy using Neural Stochastic Differential Equations and fine-tuned sentiment analysis.",
+      link: "https://github.com/RPD123-byte/Sentiment-Driven-Portfolio-Optimization-Using-Neural-Stochastic-Differential-Equations-A-Case-Study"
+    },
+    {
+      title: "Full Stack Website",
       image: "lexal.jpg",
-      description: "Comprehensive website for Lexal AI with full frontend and backend architecture, secure authentication, and integrated payment system.",
-      link: "https://lexalai.com/"
+      description: "Comprehensive website for a company with full frontend and backend architecture, secure authentication, and integrated payment system.",
+      link: "/projects/lexal-ai" 
     }
   ];
 

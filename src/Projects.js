@@ -21,7 +21,7 @@ const Projects = () => {
       title: "Lexal AI Website",
       image: "lexal.jpg",
       description: "Developed a comprehensive website for Lexal AI, featuring a full frontend and backend architecture. Implemented secure authentication using JWT and Google Auth, integrated a PostgreSQL database, and Stripe for payments. The site includes a multifunctional dashboard and is supported by a robust CI/CD pipeline.",
-      link: "https://lexalai.com/"
+      link: "/projects/lexal-ai"
     },
     {
       title: "Neural SDE Portfolio Optimizer",
@@ -85,7 +85,7 @@ const Projects = () => {
               <div className="p-6">
                 <h2 className="font-bold text-xl mb-2 text-indigo-600">{project.title}</h2>
                 <p className="text-gray-700 text-sm mb-4">{project.description}</p>
-                {project.title === "Palm Berries Auto-Purchasing Bot" ? (
+                {project.title === "Palm Berries Auto-Purchasing Bot" | "Lexal AI Website" ? (
                   <Link to={project.link} className="text-indigo-600 hover:text-indigo-800 font-semibold transition duration-300">
                     View Details
                   </Link>
