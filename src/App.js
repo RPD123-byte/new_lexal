@@ -4,6 +4,7 @@ import LandingPage from './LandingPage';
 import Projects from './Projects';
 import PalmBerries from './PalmBerries';
 import LexalAI from './LexalAI';
+import ActiveInference from './ActiveInference';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/palm-berries" element={<PalmBerries />} />
           <Route path="/projects/lexal-ai" element={<LexalAI />} />
+          <Route path="/projects/active-inference" element={<ActiveInference />} />
         </Routes>
       </div>
     </Router>
